@@ -3,3 +3,4 @@
 2026-02-21T17:44:04+05:30 | set up Jupyter notebook with dependencies
 2026-02-22T20:12:39+05:30 | performed initial data shape and info check
 2026-02-22T11:38:37+05:30 | cleaned listing records and removed nulls
+2026-02-24T13:45:10+05:30 | fixed price column parsing to numeric
