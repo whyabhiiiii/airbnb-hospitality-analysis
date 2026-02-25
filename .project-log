@@ -6,3 +6,4 @@
 2026-02-24T13:45:10+05:30 | fixed price column parsing to numeric
 2026-02-25T22:41:57+05:30 | created neighborhood distribution analysis
 2026-02-25T14:45:47+05:30 | built price range histogram
+2026-02-25T11:30:00+05:30 | added availability heatmap by month
