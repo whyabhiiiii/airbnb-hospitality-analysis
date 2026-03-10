@@ -21,3 +21,4 @@
 2026-03-08T09:46:02+05:30 | refactored repeated code into functions
 2026-03-09T18:32:25+05:30 | exported key charts as PNG files
 2026-03-09T14:05:20+05:30 | updated README with project findings
+2026-03-10T17:08:40+05:30 | added requirements file
