@@ -10,7 +10,7 @@
 
 <p align="center">
   <a href="https://public.tableau.com/views/AirbnbBookingsAnalysis_17822935752310/DetailedAnalysis?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link">
-    <img src="https://img.shields.io/badge/📊_Tableau-View_Live_Dashboard-E97627?style=for-the-badge&logo=tableau&logoColor=white" alt="Tableau Dashboard"/>
+    <img src="https://img.shields.io/badge/Tableau-View_Live_Dashboard-E97627?style=for-the-badge&logo=tableau&logoColor=white" alt="Tableau Dashboard"/>
   </a>
   &nbsp;
   <img src="https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
@@ -22,7 +22,7 @@
 
 ---
 
-## 📊 Dashboard Preview
+## Dashboard Preview
 
 <p align="center">
   <a href="https://public.tableau.com/views/AirbnbBookingsAnalysis_17822935752310/DetailedAnalysis?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link">
@@ -34,7 +34,7 @@
 
 ---
 
-## 🎯 Project Overview
+## Project Overview
 
 ### Objective
 Analyze Airbnb booking patterns across European hospitality markets to identify **revenue optimization opportunities**, **seasonal demand patterns**, and **high-value guest segments** — enabling data-driven pricing and marketing decisions.
@@ -48,7 +48,7 @@ Analyze Airbnb booking patterns across European hospitality markets to identify 
 
 ---
 
-## 📈 Key Findings at a Glance
+## Key Findings at a Glance
 
 <table>
 <tr>
@@ -59,18 +59,18 @@ Analyze Airbnb booking patterns across European hospitality markets to identify 
 </tr>
 </table>
 
-### 🌍 Geographic Insights
+### Geographic Insights
 | Rank | Country | Bookings | Revenue | Avg ADR | Insight |
 |------|---------|----------|---------|---------|---------|
-| 1 | 🇵🇹 Portugal | 324 (32%) | $25,804 | $79.64 | High-volume, below-avg ADR |
-| 2 | 🇪🇸 Spain | 182 (18%) | $13,854 | $76.12 | Price-sensitive segment |
-| 3 | 🇫🇷 France | 110 (11%) | $10,326 | $93.88 | Balanced volume & value |
-| 4 | 🇬🇧 United Kingdom | 65 (7%) | $7,227 | $111.18 | **High-value segment** |
-| 5 | 🇮🇹 Italy | 36 (4%) | $4,816 | $133.76 | **Highest ADR — premium guests** |
+| 1 | Portugal | 324 (32%) | $25,804 | $79.64 | High-volume, below-avg ADR |
+| 2 | Spain | 182 (18%) | $13,854 | $76.12 | Price-sensitive segment |
+| 3 | France | 110 (11%) | $10,326 | $93.88 | Balanced volume & value |
+| 4 | United Kingdom | 65 (7%) | $7,227 | $111.18 | **High-value segment** |
+| 5 | Italy | 36 (4%) | $4,816 | $133.76 | **Highest ADR — premium guests** |
 
 > **Insight**: Portugal + Spain account for **50.6% of bookings** but only **43.5% of revenue**. Italy and UK guests pay **47–67% higher ADR** — targeted marketing toward these segments could significantly boost revenue per booking.
 
-### 📅 Seasonal Revenue Trends
+### Seasonal Revenue Trends
 ```
 Sep  ████████████████████████████████████████████████  $46K (50.5%) ← PEAK MONTH
 Oct  ████████████████████████                          $20K (22.2%)
@@ -80,7 +80,7 @@ Dec  ███████                                            $6K  (6.8%
 Jul  █                                                 $0.3K (0.4%)
 ```
 
-### 🏡 Room Type Performance
+### Room Type Performance
 | Room Type | Bookings | Share | Avg ADR | Revenue |
 |-----------|----------|-------|---------|---------|
 | Entire Place | 797 | 79.7% | $91.00 | $72,523 |
@@ -92,7 +92,7 @@ Jul  █                                                 $0.3K (0.4%)
 
 ---
 
-## 🗂️ Data Architecture
+## Data Architecture
 
 ### Star Schema Design
 
@@ -125,7 +125,7 @@ Jul  █                                                 $0.3K (0.4%)
 
 ---
 
-## 📋 Data Dictionary
+## Data Dictionary
 
 <details>
 <summary><strong>Click to expand full data dictionary (32 columns)</strong></summary>
@@ -172,7 +172,7 @@ Jul  █                                                 $0.3K (0.4%)
 
 ---
 
-## 🛠️ Tools & Technologies
+## Tools and Technologies
 
 <table>
 <tr>
@@ -186,7 +186,7 @@ Jul  █                                                 $0.3K (0.4%)
 
 ---
 
-## 🔍 Methodology
+## Methodology
 
 ```
 1. Data Collection        → Acquired raw booking data (999 records, 32 attributes)
@@ -204,43 +204,43 @@ Jul  █                                                 $0.3K (0.4%)
 
 ---
 
-## 💡 Actionable Recommendations
+## Actionable Recommendations
 
 | Priority | Recommendation | Expected Impact |
 |----------|---------------|-----------------|
-| 🔴 High | **Target UK & Italy markets** — guests pay 47–67% higher ADR | +15–20% revenue per booking |
-| 🔴 High | **Implement guest retention program** — 0% repeat guest rate | Reduce acquisition costs, boost LTV |
-| 🟡 Medium | **Optimize September pricing** — peak demand supports premium rates | +8–12% peak season revenue |
-| 🟡 Medium | **Increase direct bookings** — 89.5% via TA/TO incurs commissions | Reduce 15–20% commission costs |
-| 🟢 Low | **Investigate Tiny Room pricing** — highest ADR ($108) with low supply | Potential for inventory expansion |
+| High | **Target UK & Italy markets** — guests pay 47–67% higher ADR | +15–20% revenue per booking |
+| High | **Implement guest retention program** — 0% repeat guest rate | Reduce acquisition costs, boost LTV |
+| Medium | **Optimize September pricing** — peak demand supports premium rates | +8–12% peak season revenue |
+| Medium | **Increase direct bookings** — 89.5% via TA/TO incurs commissions | Reduce 15–20% commission costs |
+| Low | **Investigate Tiny Room pricing** — highest ADR ($108) with low supply | Potential for inventory expansion |
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 airbnb-hospitality-analysis/
-├── 📊 assets/
+├── assets/
 │   ├── airbnb_logo.png          # Brand assets
 │   └── dashboard_preview.png    # Dashboard screenshot
-├── 📁 data/
+├── data/
 │   ├── airbnb_bookings.csv      # Fact table (999 bookings)
 │   ├── dim_budget.csv           # Country budget dimension
 │   ├── dim_owner.csv            # Property owner dimension
 │   └── dim_room.csv             # Room type dimension
-├── 🐍 scripts/
+├── scripts/
 │   ├── csv_to_redshift.py       # ETL: CSV → AWS Redshift loader
 │   └── fake_data_generator.py   # Synthetic data generation utility
-├── 📄 docs/
+├── docs/
 │   └── DATA_DICTIONARY.md       # Detailed column documentation
-├── 📄 README.md                 # Project documentation (this file)
-├── 📄 LICENSE                   # MIT License
-└── 📄 .gitignore                # Git ignore rules
+├── README.md                    # Project documentation (this file)
+├── LICENSE                      # MIT License
+└── .gitignore                   # Git ignore rules
 ```
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - [Tableau Public](https://public.tableau.com/) (for dashboard viewing)
@@ -265,7 +265,7 @@ open "https://public.tableau.com/views/AirbnbBookingsAnalysis_17822935752310/Det
 
 ---
 
-## 📬 Connect
+## Connect
 
 **Abhishek Kumar** — Data Analyst
 
@@ -276,5 +276,5 @@ open "https://public.tableau.com/views/AirbnbBookingsAnalysis_17822935752310/Det
 ---
 
 <p align="center">
-  <sub>⭐ Star this repo if you found the analysis useful!</sub>
+  <sub>Star this repo if you found the analysis useful!</sub>
 </p>
